@@ -1,8 +1,8 @@
 export default class HolbertonCourse {
   constructor(name, length, students) {
-    this.name = name;  // Name of the course.
-    this.length = length;  // How long the course is.
-    this.students = students;  // Name of students inthe course.
+    this.name = name;// Name of the course.
+    this.length = length;// How long the course is.
+    this.students = students;// Name of students inthe course.
   }
 
   // Gets the name of this course.
@@ -10,7 +10,7 @@ export default class HolbertonCourse {
     return this._name;
   }
 
-  //Sets the name of this course.
+  // Sets the name of this course.
   set name(value) {
     if (typeof value !== 'string') {
       throw new TypeError('Name must be a string');
